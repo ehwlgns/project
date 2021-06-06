@@ -1,0 +1,1 @@
+g++ -o output.out -I$HOME/sysc/include -L$HOME/sysc/lib-linux64 -lsystemc ${1}
