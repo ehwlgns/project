@@ -1,7 +1,5 @@
-#include <systemc.h>
 #include <iostream>
-
-
+#include <systemc.h>
 SC_MODULE(hello_systemc){
     sc_in_clk iclk;
     SC_CTOR(hello_systemc){
